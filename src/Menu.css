@@ -1,0 +1,31 @@
+nav{
+    color: rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+    align-items: center;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+   
+    
+    
+}
+ul li{
+    display: flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+    display: inline-block;
+    margin: 0 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.itemMenu:hover{
+    color: chartreuse;
+}
+
+.itemMenu{
+    text-decoration: none;
+    color: brown;
+    transition: 1s;
+}
